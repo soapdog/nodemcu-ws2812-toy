@@ -22,9 +22,14 @@
     - one that starts it and schedule the timer.
     - one that animates it and is called by the timer on each iteration.
 
+  REMEMBER TO READ THE MANUAL:
   URL: https://nodemcu.readthedocs.io/en/master/en/modules/ws2812/
 
-  Be aware that even though WS2812 LEDs are called RGB LEDs, the order of the colors is not actually RGB, it usually is GRB, don't ask me why.
+  THE WS2812 MODULE:
+  Has the pin D4 (NodeMCU) / 2 (ESP8266) hardcoded as where the strip is attached to. Use it.
+
+  Be aware that even though WS2812 LEDs are called RGB LEDs, the order of the colors is not actually RGB, 
+  it usually is GRB, don't ask me why.
 
 ]]
 
